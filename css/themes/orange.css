@@ -1,0 +1,161 @@
+.span,
+.span_large {
+  background: #ff8933;
+}
+.nav-3d li a span {
+  background: #ff8933;
+}
+.nav-3d li a :before {
+  color: #ff8933;
+}
+.portfolio-filter li span {
+  background: #ff8933;
+  border: 1px solid transparent;
+}
+.portfolio-filter .active span {
+  background: #ffffff;
+  color: #ff8933;
+  border: 1px solid #ff8933;
+}
+.portfolio-filter li :before {
+  color: #ff8933;
+}
+.main-nav ul .active a > span {
+  color: #ff8933;
+}
+#top-header .affix {
+  background: #ff8933;
+}
+#hero-unit .carousel .carousel-inner:before {
+  background-color: rgba(105, 46, 3, 0.89);
+}
+#service .block:hover h4 {
+  color: #ff8933;
+}
+#feature .nav-tabs > li.active {
+  border-color: #dedede #ff8933 #dedede;
+}
+#feature .nav-tabs .media i {
+  color: #ff8933;
+}
+#feature .nav-tabs .media .media-body h4 {
+  color: #ff8933;
+}
+#about .goals ul li i {
+  color: #ff8933;
+}
+.owl-controls .owl-page.active span {
+  background: #ff8933;
+}
+#team .thumbnail .caption h4 {
+  color: #ff8933;
+}
+#team .thumbnail .caption .social-icon li a:hover {
+  background: #ff8933;
+  border: 1px solid #ff8933;
+}
+#team .ih-item.circle.effect1 .spin {
+  width: 230px;
+  height: 230px;
+  border: 5px solid #ff8933;
+  border-right-color: #dedede;
+  border-bottom-color: #dedede;
+  border-radius: 50%;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+#portfolio .portfolio-container #da-thumbs li .portfolio-buttons a {
+  color: #ff8933;
+}
+#portfolio .portfolio-container #da-thumbs li .portfolio-buttons a:hover {
+  background: #ff8933;
+}
+#portfolio .da-thumbs li a div {
+  background: rgba(255, 137, 21, 0.92);
+}
+#pricing-table .block .item-box .btn-join {
+  background: #ff8933;
+}
+#pricing-table .plan-1 .title {
+  background: #ff8933;
+  border-bottom: 1px solid #AD591D;
+}
+#pricing-table .plan-1 .price {
+  background: #b3774b;
+}
+#pricing-table .plan-1 .item-box {
+  background: #f8f8f8;
+}
+#pricing-table .plan-2 .title {
+  background: #965E34;
+  border-bottom: 1px solid #6B462B;
+}
+#pricing-table .plan-2 .price {
+  background: #794F31;
+}
+#pricing-table .plan-2 .item-box {
+  background: #f2f2f2;
+}
+#pricing-table .plan-3 .title {
+  background: #C54F4F;
+  border-bottom: 1px solid #AD4242;
+}
+#pricing-table .plan-3 .price {
+  background: #d15959;
+}
+#pricing-table .plan-3 .item-box {
+  background: #ebebeb;
+  border: 1px solid #D3D3D3;
+}
+#pricing-table .plan-3 .item-box .btn-join {
+  background: #d15959;
+}
+#contact address ul li span i {
+  background: #ff8933;
+}
+#contact .form-group .btn-default {
+  background: #ff8933;
+}
+#footer {
+  background: #ff8933;
+}
+.custom-icon:hover {
+  color: #ff8933;
+}
+#blog-header:before {
+  background-color: rgba(105, 46, 3, 0.89);
+}
+#blog-body .blog-item .item-text h1 a {
+  -webkit-transition: .2s all;
+  -moz-transition: .2s all;
+  -ms-transition: .2s all;
+  -o-transition: .2s all;
+  transition: .2s all;
+}
+#blog-body .blog-item .item-text h1 a:hover {
+  color: #ff8933;
+}
+#blog-body .blog-item .item-text .btn-blog {
+  background: #ff8933;
+}
+#blog-body .blog-item .item-text .btn-blog:hover {
+  background: #ffffff;
+  color: #ff8933;
+  border: 1px solid #ff8933;
+}
+#blog-body .pagination > li .active {
+  background: #ff8933;
+}
+#blog-footer .block .tags li a:hover {
+  background: #ff8933;
+}
+.single-page .blog-item blockquote {
+  border-left: 3px solid #ff8933;
+}
+.single-page .comments .media .media-body .reply-button {
+  color: #ff8933;
+}
+.single-page .comments .btn-submit {
+  background: #ff8933;
+}

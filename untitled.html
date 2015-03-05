@@ -1,0 +1,143 @@
+<?php
+/**
+ * The template for displaying all single posts.
+ *
+ * @package themefisher
+ */
+
+get_header();?>
+
+	<section id="single-product-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="block">
+                        
+                        <div class="descripton">
+
+                        <?php while ( have_posts() ) : the_post(); ?>
+							<?php //the_title( ); ?>
+							<?php the_content(); ?>
+						<?php endwhile; // end of the loop. ?>
+                        
+                            
+                        </div>
+                        
+                    
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="product-info">
+                        <h2 class="product-title">
+                        <?php 
+                            echo get_the_title();
+                        ?>
+
+                        </h2>
+                        
+                        <div class="product-btn clearfix">
+                            <ul class="clearfix">
+                                <li>
+                                	<a class="btn btn-success btn-download" href="<?php the_field('download'); ?>">Download</a>
+                                    
+                                </li>
+                                <li>
+                                    <a class="btn btn-success btn-live-preview" href="<?php the_field('demo'); ?>">Demo</a>
+                                </li>
+                                
+                            </ul>
+                            <a class="btn btn-default btn-donate" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UA6XPD8CWQT5A">Donate Us</a>
+                        </div>
+
+
+
+                        <div class="product-details">
+                            
+                        </div>
+         
+                    </div>
+
+                    <div class="sidebar">
+
+              <div class="attr side-widget">
+                <h5>Quick Reach</h5>
+                <br>
+                <table class="table table-striped">
+                  <tbody><tr>
+                    <td class="active">Category:</td>
+                                        <td class="active">
+                        Photography,WordPress,                      </td>
+                  </tr>
+                  <tr>
+                    <td class="active">Item Version:</td>
+                    <td class="active">1.1</td>
+                  </tr>
+                  <tr>
+                    <td class="active">Resourch:</td>
+                    <td class="active"><?php the_field('usage'); ?></td>
+                  </tr>
+                  <tr>
+                    <td class="active">Browsers:</td>
+                    <td class="active"><?php the_field('browser'); ?></td>
+                  </tr>
+                  <tr>
+                                        <td class="active">Tags:</td>
+                    <td class="active">
+                      <ul class="tags">
+                            <li>
+                                <a href="#">blog</a></li>
+                            </ul> 
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="active">Release Date:</td>
+                    <td class="active"><?php the_date(); ?></td>
+                  </tr>
+
+                  <tr>
+                    <td class="active">Last Update:</td>
+                    <td class="active">January-03-2015</td>
+                  </tr>
+                  <tr>
+                    <td class="active">Used Fonts:</td>
+                    <td class="active"><?php the_field('fonts'); ?></td>
+                  </tr>
+    
+                </tbody></table>
+              </div>
+
+              <div class="text-center">
+                <br>
+                <a href="http://themeforces.com/preview/?theme=awesome-photography-wordpress-theme" class="btn btn-default btn-lg" target="_blank"> View Demo </a>
+                <br>
+                <br>
+        
+        
+        
+    </form><!--end #edd_purchase_23-->
+                <br>
+                <br>
+              </div>
+
+            </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="disqus-plugin">
+                            <?php
+			
+				// If comments are open or we have at least one comment, load up the comment template
+				if ( comments_open() || get_comments_number() ) :
+					comments_template();
+				endif;
+			?>
+                        </div>
+    </section>
+
+
+
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

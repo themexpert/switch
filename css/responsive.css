@@ -1,0 +1,180 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+body .affix .navbar-fixed-top {
+  -z-index: -9999;
+}
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #hero-unit .carousel .link {
+    left: 38%;
+    top: auto;
+    bottom: 46%;
+  }
+  .carousel-caption {
+    right: 2%;
+    left: 5%;
+  }
+  .nav-3d li a span {
+    padding: 0px 9px;
+  }
+  .nav-3d li a span:before {
+    padding: 0px 9px;
+  }
+  #footer .social-icon {
+    float: none;
+    text-align: center;
+    padding-left: 0px;
+  }
+  #footer .social-icon li {
+    display: inline-block;
+    float: none;
+  }
+  #footer .social-icon li a {
+    font-size: 18px;
+  }
+  #footer .social-icon li .fb {
+    padding: 8px 20px;
+  }
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+  .row {
+    padding: 50px 0px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .collapse.in .nav-3d li a:hover span {
+    -webkit-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border: none;
+    box-shadow: none;
+  }
+  .navbar-toggle {
+    margin-top: -15px;
+    margin-bottom: 0;
+  }
+  .affix .navbar-toggle {
+    margin-top: 0px;
+  }
+  #top-header .row {
+    padding: 4px 0;
+  }
+  #hero-unit .carousel .carousel-caption {
+    top: 20%;
+  }
+  #hero-unit .carousel .carousel-caption h1 {
+    font-size: 25px;
+  }
+  #hero-unit .carousel .carousel-caption p {
+    font-size: 15px;
+  }
+  #hero-unit .carousel .carousel-control {
+    width: 28px;
+    height: 52px;
+  }
+  #hero-unit .carousel .carousel-control i {
+    margin-top: 12px;
+    font-size: 24px;
+  }
+  .drop-shadow:after {
+    bottom: -18px;
+  }
+  #team .thumbnail .caption .social-icon li {
+    margin: 0 2px;
+  }
+  #portfolio .portfolio-filter {
+    padding-left: 0;
+  }
+  #portfolio .portfolio-container #da-thumbs li {
+    width: 100%;
+  }
+  .portfolio-filter li span {
+    padding: 3px 8px;
+    font-size: 14px;
+  }
+  .portfolio-filter li:hover span {
+    -webkit-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+  #call-to-action .row .link {
+    position: relative;
+    left: 0;
+    width: 50%;
+    margin: 30px auto 0;
+  }
+  #call-to-action .row {
+    padding: 40px 0;
+  }
+  #call-to-action .row h1 {
+    font-size: 28px;
+  }
+  .section-title {
+    padding-bottom: 18px;
+  }
+  .section-title h1 {
+    font-size: 28px;
+  }
+  #contact .form-horizontal {
+    margin-top: 0px;
+  }
+  #contact address {
+    width: 100%;
+    margin: 80px auto;
+    margin-left: 0;
+  }
+  #contact address ul {
+    padding-left: 0;
+  }
+  #footer .social-icon {
+    float: none;
+    text-align: center;
+    padding-left: 0px;
+  }
+  #footer .social-icon li {
+    display: inline-block;
+    float: none;
+  }
+  #footer .social-icon li a {
+    font-size: 18px;
+  }
+  #footer .social-icon li .fb {
+    padding: 8px 20px;
+  }
+  #portfolio .portfolio-container #da-thumbs li .portfolio-buttons {
+    left: 42%;
+    top: 45%;
+  }
+  #team .thumbnail {
+    margin-top: 12px;
+  }
+}
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
