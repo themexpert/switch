@@ -72,7 +72,7 @@ global $tx_switch;
                                         </li>
                                     <?php endif; ?>
 
-                                    <?php if( $tx_switch['section_feature_display'] ) :?>
+                                    <?php if( $tx_switch['section_about_display'] ) :?>
                                         <li>
                                             <a data-scroll href="#about">
                                                 <?php echo $tx_switch['section_about_us_menu_text']; ?>    
