@@ -1,7 +1,7 @@
 Switch Onepage Business Wordpress Theme
 ========
 
-<a href="http://demo.themexpert.com/?theme=switch&cms=wp">Live Preview</a>
+<a href="http://www.themexpert.com/wordpress-themes/switch">Live Preview</a>
 ========
 Switch is FREE OnePage WordPress Theme. The theme is fully responsive crafted with top-tired technology. The theme has been design adapting modern trend and faction. Even each component of the this theme is well-organized and deliberately placed that anyone can easily highlight with motto any business and corporate niches.
 
