@@ -70,7 +70,6 @@ function switch_scripts() {
 	
     wp_enqueue_style( 'switch-style', get_stylesheet_uri() );
 
-    wp_enqueue_style('megafolio-settings', get_template_directory_uri() . "/css/settings.min.css");
 	wp_enqueue_script( 'switch-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '', true );
     wp_enqueue_script( 'switch-modernizr', get_template_directory_uri() . '/js/vendor/modernizr-2.6.2.min.js', array(), '', true );
     wp_enqueue_script( 'switch-bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '', true );
@@ -107,13 +106,15 @@ require get_template_directory() . '/inc/customizer.php';
 
 require get_template_directory() . '/inc/jetpack.php';
 
-
+/*
+ * Include Redux Framework
+ */
 if ( !class_exists( 'ReduxFramework' ) ) {
-    require_once( dirname( __FILE__ ) . '/ReduxCore/framework.php' );
+    require_once( dirname( __FILE__ ) . '/libs/ReduxCore/framework.php' );
 }
 
 if ( !isset( $redux_demo ) ) {
-    require_once( dirname( __FILE__ ) . '/admin/admin_setting.php' );
+    require_once( dirname( __FILE__ ) . '/inc/theme-settings.php' );
 }
 
 function tx_switch_cmb()
@@ -482,5 +483,5 @@ function theme_t_wp_taxonomy_post_class( $classes, $class, $ID ) {
     }
     return $classes;
 }
-
-require_once get_template_directory() . '/example.php';
+// TGM Pluign activator
+require_once get_template_directory() . '/libs/plugin-activator.php';

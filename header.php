@@ -15,26 +15,22 @@ global $tx_switch;
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-    <!-- CSS -->
-        <!-- bootstrap -->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/font-awesome.min.css">
-
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/owl.carousel.css">
-        
-        <!-- Animate.css -->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/animate.css">
-        <!-- magnific popup -->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/magnific-popup.css">
-        
-        <!--color stylesheet -->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/themes/purple.css">
-
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/main.css">
-        <!-- Responsive Css -->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/responsive.css">    
+<!-- bootstrap -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/font-awesome.min.css">
+<!-- Owl Carousel -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/owl.carousel.css">
+<!-- Animate.css -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/animate.css">
+<!-- magnific popup -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/magnific-popup.css">
+<!--color stylesheet -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/themes/purple.css">
+<!-- Main css -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/main.css">
+<!-- Responsive Css -->
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/responsive.css">    
        
 <?php wp_head(); ?>
 </head>
@@ -53,9 +49,9 @@ global $tx_switch;
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                               </button>
-                                    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                                        <img src="<?php echo $img = $tx_switch['switch_logo']['url']; ?>" alt="">
-                                    </a>
+                           	 <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                                <img src="<?php echo $img = $tx_switch['switch_logo']['url']; ?>" alt="">
+                             </a>
                             </div>
 
                             <!-- Collect the nav links, forms, and other content for toggling -->

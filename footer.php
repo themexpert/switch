@@ -15,7 +15,12 @@
         <footer id="footer" class="clearfix" >
             <div class="row">
                 <div class="col-md-6 wow fadeInLeft" data-wow-delay=".7s">
-                    <p class="copyright">Design And Developed by <a href="http://www.Themexpert.com" target="_blank">Themexpert</a>  All Rights Reserved</p>
+                    <p class="copyright"><?php echo $tx_switch['switch_copyright']?></p>
+                    <?php if($tx_switch['themexpert_credit']):?>
+                        <p class="tx-credit">Design and Developed by <a href="https://www.themexpert.com" title="WordPress Themes by ThemeXpert">ThemeXpert</a></p>
+                    <?php else: ?>
+                        <a href="https://www.themexpert.com" title="WordPress Themes by ThemeXpert"></a>
+                    <?php endif; ?>
                 </div> <!-- /.col-md-6 -->
                 <div class="col-md-6  wow fadeInRight" data-wow-delay=".7s">
                     <ul class="social-icon">
@@ -73,11 +78,5 @@
             </div> <!-- /.row -->
         </footer> <!--/#Footer -->
 <?php wp_footer(); ?>
-
-
-        <!-- Js -->
-
-
-
 </body>
 </html>

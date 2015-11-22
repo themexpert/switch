@@ -990,9 +990,10 @@ img {
   padding: 0px;
   margin: 0;
 }
-#footer p {
+#footer p.copyright {
   padding: 25px 0 0 30px;
 }
+#footer .tx-credit{ padding-left: 30px; }
 #footer p a {
   color: #fff;
   font-weight: bold;
